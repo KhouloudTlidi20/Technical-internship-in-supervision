@@ -1,0 +1,4513 @@
+[
+    {
+        "id": "cf11adef6d866d44",
+        "type": "tab",
+        "label": "Projet de stage",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c88124f1af672a36",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_AU0",
+        "diff": true,
+        "name": "Alarme_AU1",
+        "x": 35,
+        "y": 120,
+        "wires": [
+            [
+                "109c65d3e3e72dde"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4e545768a6d0eb8e",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_AU1",
+        "diff": true,
+        "name": "Alarme_AU2",
+        "x": 90,
+        "y": 180,
+        "wires": [
+            [
+                "a36f815946906e35"
+            ]
+        ]
+    },
+    {
+        "id": "746e2731fb03cc94",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_AU2",
+        "diff": true,
+        "name": "Alarme_AU3",
+        "x": 90,
+        "y": 240,
+        "wires": [
+            [
+                "078eaf6b4f100dda"
+            ]
+        ]
+    },
+    {
+        "id": "42f7dfafd639bf22",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_AU3",
+        "diff": true,
+        "name": "Alarme_AU4",
+        "x": 90,
+        "y": 300,
+        "wires": [
+            [
+                "74f2e95f8f349000"
+            ]
+        ]
+    },
+    {
+        "id": "b50d1f0da6bf2642",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_AU4",
+        "diff": true,
+        "name": "Alarme_AU5",
+        "x": 90,
+        "y": 360,
+        "wires": [
+            [
+                "5601a90e6e8bcad1"
+            ]
+        ]
+    },
+    {
+        "id": "f9940a19576f4969",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_AU5",
+        "diff": true,
+        "name": "Alarme_AU6",
+        "x": 90,
+        "y": 420,
+        "wires": [
+            [
+                "7554663a83ddc268"
+            ]
+        ]
+    },
+    {
+        "id": "b19720d9d10ba1ca",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_AU6",
+        "diff": true,
+        "name": "Alarme_AU7",
+        "x": 90,
+        "y": 480,
+        "wires": [
+            [
+                "5016b596b57d1b89"
+            ]
+        ]
+    },
+    {
+        "id": "109c65d3e3e72dde",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 1,
+        "group": "d0d1ce98c8b2a0b0",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_AU1",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "AU 1 ",
+        "x": 430,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "a36f815946906e35",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 2,
+        "group": "d0d1ce98c8b2a0b0",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_AU2",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "AU 2",
+        "x": 430,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "078eaf6b4f100dda",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 3,
+        "group": "d0d1ce98c8b2a0b0",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_AU3",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "AU 3",
+        "x": 430,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "74f2e95f8f349000",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 4,
+        "group": "d0d1ce98c8b2a0b0",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_AU4",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "AU 4",
+        "x": 430,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "5601a90e6e8bcad1",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 5,
+        "group": "d0d1ce98c8b2a0b0",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_AU5",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "AU 5",
+        "x": 430,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "7554663a83ddc268",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 6,
+        "group": "d0d1ce98c8b2a0b0",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_AU6",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "AU 6",
+        "x": 430,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "5016b596b57d1b89",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 7,
+        "group": "d0d1ce98c8b2a0b0",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_AU7",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "AU 7",
+        "x": 430,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "af936e44413cf411",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_BG_1",
+        "diff": true,
+        "name": "Alarme_BG_1",
+        "x": 570,
+        "y": 100,
+        "wires": [
+            [
+                "2bcc8e331eb599e9"
+            ]
+        ]
+    },
+    {
+        "id": "4d108fc6818b6935",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_BG_2",
+        "diff": true,
+        "name": "Alarme_BG_2",
+        "x": 570,
+        "y": 160,
+        "wires": [
+            [
+                "f74ce628fe663f3c"
+            ]
+        ]
+    },
+    {
+        "id": "0562eaa84bfeeb3f",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_BG_3",
+        "diff": true,
+        "name": "Alarme_BG_3",
+        "x": 570,
+        "y": 220,
+        "wires": [
+            [
+                "6f45ae34ba46f95b"
+            ]
+        ]
+    },
+    {
+        "id": "bf5334abadca2d03",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_BG_4",
+        "diff": true,
+        "name": "Alarme_BG_4",
+        "x": 570,
+        "y": 280,
+        "wires": [
+            [
+                "f7f472b8764a0c7a"
+            ]
+        ]
+    },
+    {
+        "id": "9950b9865c6b6a5d",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_BG_5",
+        "diff": true,
+        "name": "Alarme_BG_5",
+        "x": 570,
+        "y": 340,
+        "wires": [
+            [
+                "2a172865e4a883ba"
+            ]
+        ]
+    },
+    {
+        "id": "6bfa030ed60cbd2f",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_BG_6",
+        "diff": true,
+        "name": "Alarme_BG_6",
+        "x": 570,
+        "y": 400,
+        "wires": [
+            [
+                "cf4ba69b07f8f5af"
+            ]
+        ]
+    },
+    {
+        "id": "f071705449ccd263",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_BG_7",
+        "diff": true,
+        "name": "Alarme_BG_7",
+        "x": 570,
+        "y": 460,
+        "wires": [
+            [
+                "77a28584c615a506"
+            ]
+        ]
+    },
+    {
+        "id": "2bcc8e331eb599e9",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "5b12d41f8b1f167e",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_BG1",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#e1dd70",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "BG1",
+        "x": 875,
+        "y": 120,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "f74ce628fe663f3c",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "5b12d41f8b1f167e",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_BG2",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#e1dd70",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "BG2",
+        "x": 910,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "6f45ae34ba46f95b",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "5b12d41f8b1f167e",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_BG3",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#e1dd70",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "BG3",
+        "x": 910,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "f7f472b8764a0c7a",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "5b12d41f8b1f167e",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_BG4",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#e1dd70",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 910,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "2a172865e4a883ba",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "5b12d41f8b1f167e",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_BG5",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#e1dd70",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 910,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "cf4ba69b07f8f5af",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "5b12d41f8b1f167e",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_BG6",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#e1dd70",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 910,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "77a28584c615a506",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "5b12d41f8b1f167e",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_BG7",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#e1dd70",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 910,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "8535452fd37d7ed2",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_BG_8",
+        "diff": true,
+        "name": "Alarme_BG_8",
+        "x": 570,
+        "y": 520,
+        "wires": [
+            [
+                "7ff7db67d55527a5"
+            ]
+        ]
+    },
+    {
+        "id": "41f6de9bd336f36a",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_BG_9",
+        "diff": true,
+        "name": "Alarme_BG_9",
+        "x": 570,
+        "y": 580,
+        "wires": [
+            [
+                "86de25a5ca706602"
+            ]
+        ]
+    },
+    {
+        "id": "a3e45da244e31a13",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_BG_10",
+        "diff": true,
+        "name": "Alarme_BG_10",
+        "x": 580,
+        "y": 640,
+        "wires": [
+            [
+                "130a8cedc714406a"
+            ]
+        ]
+    },
+    {
+        "id": "1847d8739ee80897",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_BG_11",
+        "diff": true,
+        "name": "Alarme_BG_11",
+        "x": 580,
+        "y": 700,
+        "wires": [
+            [
+                "7b573f66af65a268"
+            ]
+        ]
+    },
+    {
+        "id": "f29db85d22cc10b1",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_BG_12",
+        "diff": true,
+        "name": "Alarme_BG_12",
+        "x": 580,
+        "y": 760,
+        "wires": [
+            [
+                "99e29e6fa93c83b2"
+            ]
+        ]
+    },
+    {
+        "id": "2013a853ff16d4e7",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_BG_13",
+        "diff": true,
+        "name": "Alarme_BG_13",
+        "x": 580,
+        "y": 820,
+        "wires": [
+            [
+                "80b4c8cc4bc7710a"
+            ]
+        ]
+    },
+    {
+        "id": "d3d5fcfb9b663ef0",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_BG_14",
+        "diff": true,
+        "name": "Alarme_BG_14",
+        "x": 580,
+        "y": 880,
+        "wires": [
+            [
+                "1faf3166e59c48c9"
+            ]
+        ]
+    },
+    {
+        "id": "7ff7db67d55527a5",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "5b12d41f8b1f167e",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_BG8",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#e1dd70",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 910,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "86de25a5ca706602",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "5b12d41f8b1f167e",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_BG9",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#e1dd70",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 910,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "130a8cedc714406a",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "5b12d41f8b1f167e",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_BG10",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#e1dd70",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 910,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "7b573f66af65a268",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "5b12d41f8b1f167e",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_BG11",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#e1dd70",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 910,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "99e29e6fa93c83b2",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "5b12d41f8b1f167e",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_BG12",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#e1dd70",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 910,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "80b4c8cc4bc7710a",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "5b12d41f8b1f167e",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_BG13",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#e1dd70",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 910,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "1faf3166e59c48c9",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "5b12d41f8b1f167e",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_BG14",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#e1dd70",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 910,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "31e9d94de135ebd4",
+        "type": "comment",
+        "z": "cf11adef6d866d44",
+        "name": "Les alarmes des brises de Glace",
+        "info": "",
+        "x": 630,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "89ae1263cdded790",
+        "type": "comment",
+        "z": "cf11adef6d866d44",
+        "name": "Les alarmes des arrêts d'urgence",
+        "info": "",
+        "x": 150,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "d9d58bfd7a25fff4",
+        "type": "comment",
+        "z": "cf11adef6d866d44",
+        "name": "Les courbes de visualisation de la température, ",
+        "info": "",
+        "x": 240,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "009bc6305494175b",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_BG_15",
+        "diff": true,
+        "name": "Alarme_BG_15",
+        "x": 580,
+        "y": 940,
+        "wires": [
+            [
+                "5b56e458d590afb9"
+            ]
+        ]
+    },
+    {
+        "id": "5b56e458d590afb9",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "5b12d41f8b1f167e",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_BG15",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#e1dd70",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 910,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "72ece84d2116c172",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "ST0",
+        "diff": true,
+        "name": "",
+        "x": 35,
+        "y": 840,
+        "wires": [
+            [
+                "390ba23ff7dc9ac6"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a63e64b92b16ca91",
+        "type": "ui_chart",
+        "z": "cf11adef6d866d44",
+        "name": "HI et HIHI",
+        "group": "7f7934f1d6b77f82",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "label": "Variation du niveau des bancs",
+        "chartType": "bar",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "Variation de la température de la sonde 1",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1000",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 220,
+        "y": 1220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "04a8bb34235012e9",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "HI0",
+        "diff": true,
+        "name": "",
+        "x": 35,
+        "y": 1220,
+        "wires": [
+            [
+                "a63e64b92b16ca91"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "00d85f6412568761",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "HI1",
+        "diff": true,
+        "name": "",
+        "x": 35,
+        "y": 1300,
+        "wires": [
+            [
+                "a63e64b92b16ca91"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "0a8c81664c09cbfb",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "HI2",
+        "diff": true,
+        "name": "",
+        "x": 35,
+        "y": 1360,
+        "wires": [
+            [
+                "a63e64b92b16ca91"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d35bd1e147a193f0",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "HI3",
+        "diff": true,
+        "name": "",
+        "x": 35,
+        "y": 1420,
+        "wires": [
+            [
+                "a63e64b92b16ca91"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a75a5165fab78488",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "HI4",
+        "diff": true,
+        "name": "",
+        "x": 35,
+        "y": 1480,
+        "wires": [
+            [
+                "a63e64b92b16ca91"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "73c5df89313708ff",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "HI5",
+        "diff": true,
+        "name": "",
+        "x": 35,
+        "y": 1540,
+        "wires": [
+            [
+                "a63e64b92b16ca91"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "390ba23ff7dc9ac6",
+        "type": "ui_gauge",
+        "z": "cf11adef6d866d44",
+        "name": "",
+        "group": "9e4f7ad1235325e3",
+        "order": 9,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "Variation de la température de la sonde 1",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": "-20",
+        "max": "50",
+        "colors": [
+            "#02ffff",
+            "#32e600",
+            "#ca3838"
+        ],
+        "seg1": "0",
+        "seg2": "20",
+        "className": "",
+        "x": 320,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "c475a28cdd58b0d6",
+        "type": "ui_gauge",
+        "z": "cf11adef6d866d44",
+        "name": "",
+        "group": "9e4f7ad1235325e3",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Variation de la température de la sonde 2",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": "-20",
+        "max": "50",
+        "colors": [
+            "#02ffff",
+            "#32e600",
+            "#ca3838"
+        ],
+        "seg1": "0",
+        "seg2": "20",
+        "className": "",
+        "x": 320,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "1b638b90a1ec4198",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "ST1",
+        "diff": true,
+        "name": "",
+        "x": 35,
+        "y": 900,
+        "wires": [
+            [
+                "c475a28cdd58b0d6"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2ae4bc28760489c1",
+        "type": "ui_gauge",
+        "z": "cf11adef6d866d44",
+        "name": "",
+        "group": "9e4f7ad1235325e3",
+        "order": 9,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "Variation de la température de la sonde 3",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": "-20",
+        "max": "50",
+        "colors": [
+            "#02ffff",
+            "#32e600",
+            "#ca3838"
+        ],
+        "seg1": "0",
+        "seg2": "20",
+        "className": "",
+        "x": 320,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "4a50a6d3c17c64d1",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "ST2",
+        "diff": true,
+        "name": "",
+        "x": 35,
+        "y": 960,
+        "wires": [
+            [
+                "2ae4bc28760489c1"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "1c6453eee5529bc8",
+        "type": "ui_gauge",
+        "z": "cf11adef6d866d44",
+        "name": "",
+        "group": "9e4f7ad1235325e3",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Variation de la température de la sonde 4",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": "-20",
+        "max": "50",
+        "colors": [
+            "#02ffff",
+            "#32e600",
+            "#ca3838"
+        ],
+        "seg1": "0",
+        "seg2": "20",
+        "className": "",
+        "x": 320,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "59b2a37843683302",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "ST3",
+        "diff": true,
+        "name": "",
+        "x": 35,
+        "y": 1000,
+        "wires": [
+            [
+                "1c6453eee5529bc8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3b8c8af807f8d816",
+        "type": "ui_gauge",
+        "z": "cf11adef6d866d44",
+        "name": "",
+        "group": "9e4f7ad1235325e3",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Variation de la température de la sonde 5",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": "-20",
+        "max": "50",
+        "colors": [
+            "#02ffff",
+            "#32e600",
+            "#ca3838"
+        ],
+        "seg1": "0",
+        "seg2": "20",
+        "className": "",
+        "x": 320,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "e3f601acbe42f05f",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "ST4",
+        "diff": true,
+        "name": "",
+        "x": 35,
+        "y": 1040,
+        "wires": [
+            [
+                "3b8c8af807f8d816"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4ad7ad6cb8c0325d",
+        "type": "ui_gauge",
+        "z": "cf11adef6d866d44",
+        "name": "",
+        "group": "9e4f7ad1235325e3",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Variation de la température de la sonde 6",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": "-20",
+        "max": "50",
+        "colors": [
+            "#02ffff",
+            "#32e600",
+            "#ca3838"
+        ],
+        "seg1": "0",
+        "seg2": "20",
+        "className": "",
+        "x": 320,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "163d9c05b161dd5c",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "ST5",
+        "diff": true,
+        "name": "",
+        "x": 35,
+        "y": 1080,
+        "wires": [
+            [
+                "4ad7ad6cb8c0325d"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "36a8de8a25978dd0",
+        "type": "ui_gauge",
+        "z": "cf11adef6d866d44",
+        "name": "",
+        "group": "9e4f7ad1235325e3",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Variation de la température de la sonde 7",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": "-20",
+        "max": "50",
+        "colors": [
+            "#02ffff",
+            "#32e600",
+            "#ca3838"
+        ],
+        "seg1": "0",
+        "seg2": "20",
+        "className": "",
+        "x": 320,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "4e129e6aab49a78f",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "ST6",
+        "diff": true,
+        "name": "",
+        "x": 35,
+        "y": 1120,
+        "wires": [
+            [
+                "36a8de8a25978dd0"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4fb39e1e26928010",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "ST7",
+        "diff": true,
+        "name": "",
+        "x": 35,
+        "y": 1180,
+        "wires": [
+            [
+                "d361c956ae1859e2"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d361c956ae1859e2",
+        "type": "ui_gauge",
+        "z": "cf11adef6d866d44",
+        "name": "",
+        "group": "9e4f7ad1235325e3",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Variation de la température de la sonde 7",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": "-20",
+        "max": "50",
+        "colors": [
+            "#02ffff",
+            "#32e600",
+            "#ca3838"
+        ],
+        "seg1": "0",
+        "seg2": "20",
+        "className": "",
+        "x": 320,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "86a55349d5b252fa",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DF_1",
+        "diff": true,
+        "name": "Alarme_DF_1",
+        "x": 570,
+        "y": 1000,
+        "wires": [
+            [
+                "0c69ae40536dd589"
+            ]
+        ]
+    },
+    {
+        "id": "0c69ae40536dd589",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "3e2ff7a8aee5e324",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DF1",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#132bfa",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 915,
+        "y": 1000,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "ddf2e088df8aba5e",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DF_2",
+        "diff": true,
+        "name": "Alarme_DF_2",
+        "x": 570,
+        "y": 1040,
+        "wires": [
+            [
+                "720b8b27bd506172"
+            ]
+        ]
+    },
+    {
+        "id": "720b8b27bd506172",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "3e2ff7a8aee5e324",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DF2",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#132bfa",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 915,
+        "y": 1040,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "e27841778ecc1402",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DF_3",
+        "diff": true,
+        "name": "Alarme_DF_3",
+        "x": 570,
+        "y": 1080,
+        "wires": [
+            [
+                "7fbb9ceef4c62fd8"
+            ]
+        ]
+    },
+    {
+        "id": "7fbb9ceef4c62fd8",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "3e2ff7a8aee5e324",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DF3",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#132bfa",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 915,
+        "y": 1080,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "87cc220369acc086",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DF_4",
+        "diff": true,
+        "name": "Alarme_DF_4",
+        "x": 570,
+        "y": 1120,
+        "wires": [
+            [
+                "ed24e5980ee78d72"
+            ]
+        ]
+    },
+    {
+        "id": "ed24e5980ee78d72",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "3e2ff7a8aee5e324",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DF4",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#132bfa",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 915,
+        "y": 1120,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "99c4139a1bb8034d",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DF_5",
+        "diff": true,
+        "name": "Alarme_DF_5",
+        "x": 570,
+        "y": 1160,
+        "wires": [
+            [
+                "607ad2f9b71ef729"
+            ]
+        ]
+    },
+    {
+        "id": "607ad2f9b71ef729",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "3e2ff7a8aee5e324",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DF5",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#132bfa",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 915,
+        "y": 1160,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "fee1562610de779e",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DF_6",
+        "diff": true,
+        "name": "Alarme_DF_6",
+        "x": 570,
+        "y": 1200,
+        "wires": [
+            [
+                "ef1e49e667097da5"
+            ]
+        ]
+    },
+    {
+        "id": "ef1e49e667097da5",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "3e2ff7a8aee5e324",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DF6",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#132bfa",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 915,
+        "y": 1200,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "47af33f7b30e1439",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DF_7",
+        "diff": true,
+        "name": "Alarme_DF_7",
+        "x": 570,
+        "y": 1240,
+        "wires": [
+            [
+                "5493bceb4f749e91"
+            ]
+        ]
+    },
+    {
+        "id": "5493bceb4f749e91",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "3e2ff7a8aee5e324",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DF7",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#132bfa",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 915,
+        "y": 1240,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "f3199f13a68ca3ee",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DF_8",
+        "diff": true,
+        "name": "Alarme_DF_",
+        "x": 570,
+        "y": 1280,
+        "wires": [
+            [
+                "b7251c40fe7165bb"
+            ]
+        ]
+    },
+    {
+        "id": "b7251c40fe7165bb",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "3e2ff7a8aee5e324",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DF8",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#132bfa",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 915,
+        "y": 1280,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "ba85acf5609329c1",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DF_9",
+        "diff": true,
+        "name": "Alarme_DF_9",
+        "x": 570,
+        "y": 1320,
+        "wires": [
+            [
+                "b1cb3d895fd1b6d0"
+            ]
+        ]
+    },
+    {
+        "id": "b1cb3d895fd1b6d0",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "3e2ff7a8aee5e324",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DF9",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#132bfa",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 915,
+        "y": 1320,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "f9374e4e8faf9792",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DF_10",
+        "diff": true,
+        "name": "Alarme_DF_10",
+        "x": 580,
+        "y": 1360,
+        "wires": [
+            [
+                "c6a169402644c9f5"
+            ]
+        ]
+    },
+    {
+        "id": "c6a169402644c9f5",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "3e2ff7a8aee5e324",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DF10",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#132bfa",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 915,
+        "y": 1360,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "8e37f4ebaa7ec54e",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DF_11",
+        "diff": true,
+        "name": "Alarme_DF_11",
+        "x": 580,
+        "y": 1400,
+        "wires": [
+            [
+                "0ed385d6db84908c"
+            ]
+        ]
+    },
+    {
+        "id": "0ed385d6db84908c",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "3e2ff7a8aee5e324",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DF11",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#132bfa",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 915,
+        "y": 1400,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "389216115cf2fa73",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DF_B1",
+        "diff": true,
+        "name": "Alarme_DF_B1",
+        "x": 580,
+        "y": 1440,
+        "wires": [
+            [
+                "287b68c9a545af8d"
+            ]
+        ]
+    },
+    {
+        "id": "287b68c9a545af8d",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "3e2ff7a8aee5e324",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DF_B1",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#132bfa",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 915,
+        "y": 1440,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "287b4a1d523c033d",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DF_B2",
+        "diff": true,
+        "name": "Alarme_DF_B2",
+        "x": 580,
+        "y": 1480,
+        "wires": [
+            [
+                "7a81b3f65b8367f5"
+            ]
+        ]
+    },
+    {
+        "id": "7a81b3f65b8367f5",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "3e2ff7a8aee5e324",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DF_B2",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#132bfa",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 915,
+        "y": 1480,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "0b1c53e8516015b2",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DF_B3",
+        "diff": true,
+        "name": "Alarme_DF_B3",
+        "x": 580,
+        "y": 1520,
+        "wires": [
+            [
+                "20b8b8439cdc47ed"
+            ]
+        ]
+    },
+    {
+        "id": "20b8b8439cdc47ed",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "3e2ff7a8aee5e324",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DF_B3",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#132bfa",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 915,
+        "y": 1520,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "c5d9cbe650db7c7d",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DF_B4",
+        "diff": true,
+        "name": "Alarme_DF_B4",
+        "x": 580,
+        "y": 1560,
+        "wires": [
+            [
+                "3f422d59b77d8af7"
+            ]
+        ]
+    },
+    {
+        "id": "3f422d59b77d8af7",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "3e2ff7a8aee5e324",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DF_B4",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#132bfa",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 915,
+        "y": 1560,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "b17d69d69543965f",
+        "type": "s7 out",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "variable": "seuilmax_ST",
+        "name": "Le seuilmax de la sonde de température",
+        "x": 660,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "8e602b981d1aa31a",
+        "type": "ui_numeric",
+        "z": "cf11adef6d866d44",
+        "name": "",
+        "label": "Fixer le seuilmax de la sondes de température à distance",
+        "tooltip": "",
+        "group": "ef812e13773754d3",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 230,
+        "y": 1760,
+        "wires": [
+            [
+                "b17d69d69543965f"
+            ]
+        ]
+    },
+    {
+        "id": "7ce51ed0da0882fc",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DL1",
+        "diff": true,
+        "name": "Alarme_DL1",
+        "x": 130,
+        "y": 2060,
+        "wires": [
+            [
+                "89678af5c5877975"
+            ]
+        ]
+    },
+    {
+        "id": "89678af5c5877975",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 2,
+        "group": "bd0c6ecfb3717c8a",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DL1",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "DL 1",
+        "x": 470,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "65a5d825c6636079",
+        "type": "comment",
+        "z": "cf11adef6d866d44",
+        "name": "Les alarmes des arrêts d'urgence",
+        "info": "",
+        "x": 190,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "2bb91a9a4bfd3486",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DL2",
+        "diff": true,
+        "name": "Alarme_DL2",
+        "x": 130,
+        "y": 2120,
+        "wires": [
+            [
+                "7dfd775d39147247"
+            ]
+        ]
+    },
+    {
+        "id": "4ccaf7333e28cda3",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DL3",
+        "diff": true,
+        "name": "Alarme_DL3",
+        "x": 130,
+        "y": 2160,
+        "wires": [
+            [
+                "51b64d78cfda4dfa"
+            ]
+        ]
+    },
+    {
+        "id": "11de7bd925da75d3",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DL4",
+        "diff": true,
+        "name": "Alarme_DL4",
+        "x": 130,
+        "y": 2220,
+        "wires": [
+            [
+                "bb15364829f4726c"
+            ]
+        ]
+    },
+    {
+        "id": "39bca68c797aaae6",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DL5",
+        "diff": true,
+        "name": "Alarme_DL5",
+        "x": 130,
+        "y": 2260,
+        "wires": [
+            [
+                "e594469b41505a97"
+            ]
+        ]
+    },
+    {
+        "id": "f79fd89b860dd5cf",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DL6",
+        "diff": true,
+        "name": "Alarme_DL6",
+        "x": 130,
+        "y": 2320,
+        "wires": [
+            [
+                "a4c126522dcdb49a"
+            ]
+        ]
+    },
+    {
+        "id": "e946f296a931a1de",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DL7",
+        "diff": true,
+        "name": "Alarme_DL7",
+        "x": 130,
+        "y": 2360,
+        "wires": [
+            [
+                "94a1068480fcf20b"
+            ]
+        ]
+    },
+    {
+        "id": "bc4372cdde0ef8d3",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DL8",
+        "diff": true,
+        "name": "Alarme_DL8",
+        "x": 130,
+        "y": 2420,
+        "wires": [
+            [
+                "9888db4b0ecd5658"
+            ]
+        ]
+    },
+    {
+        "id": "aae8bbfb6cbd93e5",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "HI6",
+        "diff": true,
+        "name": "",
+        "x": 35,
+        "y": 1600,
+        "wires": [
+            [
+                "a63e64b92b16ca91"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8c6b5861bc8e9647",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "HI7",
+        "diff": true,
+        "name": "",
+        "x": 35,
+        "y": 1640,
+        "wires": [
+            [
+                "a63e64b92b16ca91"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "cd3fa5713eaf4a5c",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "HI8",
+        "diff": true,
+        "name": "",
+        "x": 35,
+        "y": 1680,
+        "wires": [
+            [
+                "a63e64b92b16ca91"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "f06ecd7abead308f",
+        "type": "s7 out",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "variable": "seuilmax_SN",
+        "name": "Le seuilmax de la sonde de température",
+        "x": 660,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "92a61c248ac8b17c",
+        "type": "ui_numeric",
+        "z": "cf11adef6d866d44",
+        "name": "",
+        "label": "Fixer le seuilmax de la sonde de niveau à distance",
+        "tooltip": "",
+        "group": "ef812e13773754d3",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "step": 1,
+        "className": "",
+        "x": 210,
+        "y": 1860,
+        "wires": [
+            [
+                "f06ecd7abead308f"
+            ]
+        ]
+    },
+    {
+        "id": "f16d2b3f826d711e",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_AS1",
+        "diff": true,
+        "name": "Alarme_Sonore 1",
+        "x": 140,
+        "y": 2640,
+        "wires": [
+            [
+                "6731f44fb7306b7b",
+                "f470d9e520a1eb85"
+            ]
+        ]
+    },
+    {
+        "id": "6731f44fb7306b7b",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "3dcab260c9710553",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_Sonore 1",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#1aff1d",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Alarme_Sonore 1",
+        "x": 510,
+        "y": 2700,
+        "wires": []
+    },
+    {
+        "id": "9b275d8e5266c3e5",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_AS2",
+        "diff": true,
+        "name": "Alarme_Sonore 2",
+        "x": 140,
+        "y": 2820,
+        "wires": [
+            [
+                "3cbd4854e4eb2113",
+                "150432a9639c5ccf"
+            ]
+        ]
+    },
+    {
+        "id": "3cbd4854e4eb2113",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 12,
+        "group": "3dcab260c9710553",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_Sonore 2",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#1aff1d",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Alarme_Sonore 2",
+        "x": 510,
+        "y": 2860,
+        "wires": []
+    },
+    {
+        "id": "768913356b1c15cc",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_AS3",
+        "diff": true,
+        "name": "Alarme_Sonore 3",
+        "x": 140,
+        "y": 2900,
+        "wires": [
+            [
+                "151015d01e381806"
+            ]
+        ]
+    },
+    {
+        "id": "151015d01e381806",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 13,
+        "group": "3dcab260c9710553",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_Sonore 4",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#1aff1d",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Alarme_Sonore 4",
+        "x": 510,
+        "y": 2900,
+        "wires": []
+    },
+    {
+        "id": "3694f732a90b4bcf",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_AS4",
+        "diff": true,
+        "name": "Alarme_Sonore 4",
+        "x": 140,
+        "y": 2940,
+        "wires": [
+            [
+                "fe940693e8263d7b"
+            ]
+        ]
+    },
+    {
+        "id": "fe940693e8263d7b",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 1,
+        "group": "3dcab260c9710553",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_Sonore 6",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#1aff1d",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Alarme_Sonore 6",
+        "x": 510,
+        "y": 2940,
+        "wires": []
+    },
+    {
+        "id": "80b272fec77c29f4",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_AS5",
+        "diff": true,
+        "name": "Alarme_Sonore 5",
+        "x": 140,
+        "y": 2980,
+        "wires": [
+            [
+                "2436cb450c5b187a"
+            ]
+        ]
+    },
+    {
+        "id": "2436cb450c5b187a",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 2,
+        "group": "3dcab260c9710553",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_Sonore 7",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#1aff1d",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Alarme_Sonore 7",
+        "x": 510,
+        "y": 2980,
+        "wires": []
+    },
+    {
+        "id": "28f57a34e874036b",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_AS6",
+        "diff": true,
+        "name": "Alarme_Sonore 6",
+        "x": 140,
+        "y": 3020,
+        "wires": [
+            [
+                "0871c557f618c838"
+            ]
+        ]
+    },
+    {
+        "id": "0871c557f618c838",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 3,
+        "group": "3dcab260c9710553",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_Sonore 9",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#1aff1d",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Alarme_Sonore 9",
+        "x": 510,
+        "y": 3020,
+        "wires": []
+    },
+    {
+        "id": "311cf5fd69758a4b",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_AS7",
+        "diff": true,
+        "name": "Alarme_Sonore 7",
+        "x": 140,
+        "y": 3060,
+        "wires": [
+            [
+                "6d497c6b884a94d1"
+            ]
+        ]
+    },
+    {
+        "id": "6d497c6b884a94d1",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 4,
+        "group": "3dcab260c9710553",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_Sonore 10",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#1aff1d",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Alarme_Sonore 10",
+        "x": 510,
+        "y": 3060,
+        "wires": []
+    },
+    {
+        "id": "9e89c942a7ac9d09",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_AS8",
+        "diff": true,
+        "name": "Alarme_Sonore 8",
+        "x": 140,
+        "y": 3100,
+        "wires": [
+            [
+                "5839b30832acd4d4"
+            ]
+        ]
+    },
+    {
+        "id": "5839b30832acd4d4",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 5,
+        "group": "3dcab260c9710553",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_Sonore 51",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#1aff1d",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Alarme_Sonore 51",
+        "x": 510,
+        "y": 3100,
+        "wires": []
+    },
+    {
+        "id": "cc90d1b4ff8b9ab3",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_AS9",
+        "diff": true,
+        "name": "Alarme_Sonore 9",
+        "x": 140,
+        "y": 3140,
+        "wires": [
+            [
+                "7d8c33d37e6f1f66"
+            ]
+        ]
+    },
+    {
+        "id": "7d8c33d37e6f1f66",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 6,
+        "group": "3dcab260c9710553",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_Sonore 53",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#1aff1d",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Alarme_Sonore 53",
+        "x": 510,
+        "y": 3140,
+        "wires": []
+    },
+    {
+        "id": "b529111e791f39b3",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_AS10",
+        "diff": true,
+        "name": "Alarme_Sonore 10",
+        "x": 150,
+        "y": 3180,
+        "wires": [
+            [
+                "d7bfdd295f507fd9"
+            ]
+        ]
+    },
+    {
+        "id": "d7bfdd295f507fd9",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 7,
+        "group": "3dcab260c9710553",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_Sonore ASG",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#1aff1d",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Alarme_Sonore ASG",
+        "x": 520,
+        "y": 3180,
+        "wires": []
+    },
+    {
+        "id": "ac099847f829dc6f",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_SV1",
+        "diff": true,
+        "name": "Alarme_Sonore  SV1",
+        "x": 150,
+        "y": 3220,
+        "wires": [
+            [
+                "52ecf076534af90c"
+            ]
+        ]
+    },
+    {
+        "id": "52ecf076534af90c",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 8,
+        "group": "3dcab260c9710553",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_Sonore SV1",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#1aff1d",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Alarme_Sonore SV1",
+        "x": 520,
+        "y": 3220,
+        "wires": []
+    },
+    {
+        "id": "76d5d603f499064c",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_SV2",
+        "diff": true,
+        "name": "Alarme_Sonore  SV2",
+        "x": 150,
+        "y": 3260,
+        "wires": [
+            [
+                "707f644582702fcf"
+            ]
+        ]
+    },
+    {
+        "id": "707f644582702fcf",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 9,
+        "group": "3dcab260c9710553",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_Sonore  SV2",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#1aff1d",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Alarme_Sonore SV2",
+        "x": 520,
+        "y": 3260,
+        "wires": []
+    },
+    {
+        "id": "1e4f2f6c7ee0a592",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_SV3",
+        "diff": true,
+        "name": "Alarme_Sonore  SV3",
+        "x": 150,
+        "y": 3300,
+        "wires": [
+            [
+                "f92a1efe66e749b0"
+            ]
+        ]
+    },
+    {
+        "id": "f92a1efe66e749b0",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 10,
+        "group": "3dcab260c9710553",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_Sonore  SV3",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#1aff1d",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Alarme_Sonore  SV3",
+        "x": 520,
+        "y": 3300,
+        "wires": []
+    },
+    {
+        "id": "271a95228554c0e6",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_SV4",
+        "diff": true,
+        "name": "Alarme_Sonore  SV4",
+        "x": 150,
+        "y": 3340,
+        "wires": [
+            [
+                "56529edd2594a234"
+            ]
+        ]
+    },
+    {
+        "id": "56529edd2594a234",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "3dcab260c9710553",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_Sonore  SV4",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#1aff1d",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Alarme_Sonore  SV4",
+        "x": 520,
+        "y": 3340,
+        "wires": []
+    },
+    {
+        "id": "09f1739427f25774",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_SV5",
+        "diff": true,
+        "name": "Alarme_Sonore  SV5",
+        "x": 150,
+        "y": 3380,
+        "wires": [
+            [
+                "833ef85720e9d5a8"
+            ]
+        ]
+    },
+    {
+        "id": "833ef85720e9d5a8",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 12,
+        "group": "3dcab260c9710553",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_Sonore  SV5",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#1aff1d",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Alarme_Sonore  SV5",
+        "x": 520,
+        "y": 3380,
+        "wires": []
+    },
+    {
+        "id": "be1c3e3a51a18afb",
+        "type": "comment",
+        "z": "cf11adef6d866d44",
+        "name": "Les alarmes sonores",
+        "info": "",
+        "x": 130,
+        "y": 2580,
+        "wires": []
+    },
+    {
+        "id": "4e42b37bb612b0cb",
+        "type": "comment",
+        "z": "cf11adef6d866d44",
+        "name": "Les alarmes lumineuses",
+        "info": "",
+        "x": 1050,
+        "y": 2480,
+        "wires": []
+    },
+    {
+        "id": "7dfd775d39147247",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 2,
+        "group": "bd0c6ecfb3717c8a",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DL2",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "DL 2",
+        "x": 470,
+        "y": 2120,
+        "wires": []
+    },
+    {
+        "id": "51b64d78cfda4dfa",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 2,
+        "group": "bd0c6ecfb3717c8a",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DL3",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "DL 3",
+        "x": 470,
+        "y": 2160,
+        "wires": []
+    },
+    {
+        "id": "bb15364829f4726c",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 2,
+        "group": "bd0c6ecfb3717c8a",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DL4",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "DL 4",
+        "x": 470,
+        "y": 2200,
+        "wires": []
+    },
+    {
+        "id": "e594469b41505a97",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 2,
+        "group": "bd0c6ecfb3717c8a",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DL5",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "DL 5",
+        "x": 470,
+        "y": 2240,
+        "wires": []
+    },
+    {
+        "id": "a4c126522dcdb49a",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 2,
+        "group": "bd0c6ecfb3717c8a",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DL6",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "DL 6",
+        "x": 470,
+        "y": 2300,
+        "wires": []
+    },
+    {
+        "id": "94a1068480fcf20b",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 2,
+        "group": "bd0c6ecfb3717c8a",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DL7",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "DL 7",
+        "x": 470,
+        "y": 2340,
+        "wires": []
+    },
+    {
+        "id": "9888db4b0ecd5658",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 2,
+        "group": "bd0c6ecfb3717c8a",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DL8",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "DL 8",
+        "x": 470,
+        "y": 2420,
+        "wires": []
+    },
+    {
+        "id": "5f317b8c9f5fcab8",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_lumineuse1",
+        "diff": true,
+        "name": "Alarme_Lumineuse 1",
+        "x": 960,
+        "y": 2540,
+        "wires": [
+            [
+                "1833db43872a8c39"
+            ]
+        ]
+    },
+    {
+        "id": "1833db43872a8c39",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "32d0fedfe8a6ca10",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_Lumineuse 1",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#af1aff",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Alarme_Lumineuse 1",
+        "x": 1220,
+        "y": 2540,
+        "wires": []
+    },
+    {
+        "id": "b7a4a7e8ec41d23c",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_DL9",
+        "diff": true,
+        "name": "Alarme_DL9",
+        "x": 130,
+        "y": 2480,
+        "wires": [
+            [
+                "5c1e759896b05ab8"
+            ]
+        ]
+    },
+    {
+        "id": "5c1e759896b05ab8",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 2,
+        "group": "bd0c6ecfb3717c8a",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_DL9",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "DL 9",
+        "x": 470,
+        "y": 2480,
+        "wires": []
+    },
+    {
+        "id": "c348e247bb72ac21",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_lumineuse2",
+        "diff": true,
+        "name": "Alarme_Lumineuse 2",
+        "x": 960,
+        "y": 2600,
+        "wires": [
+            [
+                "601b55bc95b5f250"
+            ]
+        ]
+    },
+    {
+        "id": "8cfc8b5a1a7fa271",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_lumineuse3",
+        "diff": true,
+        "name": "Alarme_Lumineuse 3",
+        "x": 960,
+        "y": 2640,
+        "wires": [
+            [
+                "5fa6952eb9fe5109"
+            ]
+        ]
+    },
+    {
+        "id": "81b98a845176a3d6",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_lumineuse4",
+        "diff": true,
+        "name": "Alarme_Lumineuse 4",
+        "x": 960,
+        "y": 2680,
+        "wires": [
+            [
+                "7f804a65b3a3c3d1"
+            ]
+        ]
+    },
+    {
+        "id": "de2df3c11816a1d4",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_lumineuse5",
+        "diff": true,
+        "name": "Alarme_Lumineuse 5",
+        "x": 960,
+        "y": 2740,
+        "wires": [
+            [
+                "9401c02de9d8ef94"
+            ]
+        ]
+    },
+    {
+        "id": "e5d00b5aa4193e65",
+        "type": "s7 in",
+        "z": "cf11adef6d866d44",
+        "endpoint": "310879a207de0358",
+        "mode": "single",
+        "variable": "Alarme_lumineuse6",
+        "diff": true,
+        "name": "Alarme_Lumineuse 6",
+        "x": 960,
+        "y": 2780,
+        "wires": [
+            [
+                "0ebad98253c5b412"
+            ]
+        ]
+    },
+    {
+        "id": "601b55bc95b5f250",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "32d0fedfe8a6ca10",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_Lumineuse 2",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#af1aff",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Alarme_Lumineuse 2",
+        "x": 1220,
+        "y": 2600,
+        "wires": []
+    },
+    {
+        "id": "5fa6952eb9fe5109",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "32d0fedfe8a6ca10",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_Lumineuse 3",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#af1aff",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Alarme_Lumineuse 3",
+        "x": 1220,
+        "y": 2640,
+        "wires": []
+    },
+    {
+        "id": "7f804a65b3a3c3d1",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "32d0fedfe8a6ca10",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_Lumineuse 4",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#af1aff",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Alarme_Lumineuse 4",
+        "x": 1220,
+        "y": 2680,
+        "wires": []
+    },
+    {
+        "id": "9401c02de9d8ef94",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "32d0fedfe8a6ca10",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_Lumineuse 5",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#af1aff",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Alarme_Lumineuse 5",
+        "x": 1220,
+        "y": 2740,
+        "wires": []
+    },
+    {
+        "id": "0ebad98253c5b412",
+        "type": "ui_led",
+        "z": "cf11adef6d866d44",
+        "order": 11,
+        "group": "32d0fedfe8a6ca10",
+        "width": 0,
+        "height": 0,
+        "label": "Alarme_Lumineuse 6",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#af1aff",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Alarme_Lumineuse 6",
+        "x": 1220,
+        "y": 2780,
+        "wires": []
+    },
+    {
+        "id": "a7da67388a173c88",
+        "type": "twilio out",
+        "z": "cf11adef6d866d44",
+        "twilio": "aacc667bba8d87ab",
+        "twilioType": "sms",
+        "url": "",
+        "number": "+212626182482",
+        "name": "",
+        "x": 730,
+        "y": 2620,
+        "wires": []
+    },
+    {
+        "id": "f470d9e520a1eb85",
+        "type": "function",
+        "z": "cf11adef6d866d44",
+        "name": "If true send SMS",
+        "func": "if (msg.payload == true)\n{ var message=\"L'alarme sonore N°1 est activée\";\n}\nreturn {payload : message};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 2620,
+        "wires": [
+            [
+                "a7da67388a173c88"
+            ]
+        ]
+    },
+    {
+        "id": "1f417999a9eef1b3",
+        "type": "twilio out",
+        "z": "cf11adef6d866d44",
+        "twilio": "aacc667bba8d87ab",
+        "twilioType": "sms",
+        "url": "",
+        "number": "+212626182482",
+        "name": "",
+        "x": 730,
+        "y": 2780,
+        "wires": []
+    },
+    {
+        "id": "150432a9639c5ccf",
+        "type": "function",
+        "z": "cf11adef6d866d44",
+        "name": "If true send SMS",
+        "func": "if (msg.payload == true)\n{ var message=\"L'alarme sonore N°2 est activée\";\n}\nreturn {payload : message};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 2780,
+        "wires": [
+            [
+                "1f417999a9eef1b3"
+            ]
+        ]
+    },
+    {
+        "id": "310879a207de0358",
+        "type": "s7 endpoint",
+        "transport": "iso-on-tcp",
+        "address": "192.168.163.1",
+        "port": "102",
+        "rack": "0",
+        "slot": "1",
+        "localtsaphi": "01",
+        "localtsaplo": "00",
+        "remotetsaphi": "01",
+        "remotetsaplo": "00",
+        "connmode": "rack-slot",
+        "adapter": "",
+        "busaddr": "2",
+        "cycletime": "1000",
+        "timeout": "2000",
+        "name": "API",
+        "vartable": [
+            {
+                "addr": "DB1,WORD0",
+                "name": "DATA0"
+            },
+            {
+                "addr": "DB1,WORD2",
+                "name": "DATA1"
+            },
+            {
+                "addr": "DB1,WORD4",
+                "name": "DATA2"
+            },
+            {
+                "addr": "DB1,WORD6",
+                "name": "DATA3"
+            },
+            {
+                "addr": "DB1,X24.0",
+                "name": "Alarme_AU0"
+            },
+            {
+                "addr": "DB1,X24.1",
+                "name": "Alarme_AU1"
+            },
+            {
+                "addr": "Q0.5",
+                "name": "Alarme_BG_6"
+            },
+            {
+                "addr": "Q0.4",
+                "name": "Alarme_BG_5"
+            },
+            {
+                "addr": "DB1,X24.2",
+                "name": "Alarme_AU2"
+            },
+            {
+                "addr": "DB1,X24.3",
+                "name": "Alarme_AU3"
+            },
+            {
+                "addr": "DB1,X24.4",
+                "name": "Alarme_AU4"
+            },
+            {
+                "addr": "DB1,X24.5",
+                "name": "Alarme_AU5"
+            },
+            {
+                "addr": "DB1,X24.6",
+                "name": "Alarme_AU6"
+            },
+            {
+                "addr": "Q0.2",
+                "name": "Alarme_BG_3"
+            },
+            {
+                "addr": "Q0.3",
+                "name": "Alarme_BG_4"
+            },
+            {
+                "addr": "Q0.0",
+                "name": "Alarme_BG_1"
+            },
+            {
+                "addr": "Q0.1",
+                "name": "Alarme_BG_2"
+            },
+            {
+                "addr": "Q0.6",
+                "name": "Alarme_BG_7"
+            },
+            {
+                "addr": "Q0.7",
+                "name": "Alarme_BG_8"
+            },
+            {
+                "addr": "Q1.0",
+                "name": "Alarme_BG_9"
+            },
+            {
+                "addr": "Q1.1",
+                "name": "Alarme_BG_10"
+            },
+            {
+                "addr": "Q1.2",
+                "name": "Alarme_BG_11"
+            },
+            {
+                "addr": "Q1.3",
+                "name": "Alarme_BG_12"
+            },
+            {
+                "addr": "Q1.4",
+                "name": "Alarme_BG_13"
+            },
+            {
+                "addr": "Q1.5",
+                "name": "Alarme_BG_14"
+            },
+            {
+                "addr": "Q1.6",
+                "name": "Alarme_BG_15"
+            },
+            {
+                "addr": "DB1,WORD32",
+                "name": "ST0"
+            },
+            {
+                "addr": "DB1,WORD34",
+                "name": "ST1"
+            },
+            {
+                "addr": "DB1,WORD36",
+                "name": "ST2"
+            },
+            {
+                "addr": "DB1,WORD38",
+                "name": "ST3"
+            },
+            {
+                "addr": "DB1,WORD40",
+                "name": "ST4"
+            },
+            {
+                "addr": "DB1,WORD42",
+                "name": "ST5"
+            },
+            {
+                "addr": "DB1,WORD44",
+                "name": "ST6"
+            },
+            {
+                "addr": "DB1,WORD46",
+                "name": "ST7"
+            },
+            {
+                "addr": "DB1,WORD48",
+                "name": "HI0"
+            },
+            {
+                "addr": "DB1,WORD50",
+                "name": "HI1"
+            },
+            {
+                "addr": "DB1,WORD52",
+                "name": "HI2"
+            },
+            {
+                "addr": "DB1,WORD54",
+                "name": "HI3"
+            },
+            {
+                "addr": "DB1,WORD56",
+                "name": "HI4"
+            },
+            {
+                "addr": "DB1,WORD58",
+                "name": "HI5"
+            },
+            {
+                "addr": "Q7.2",
+                "name": "Alarme_DF_1"
+            },
+            {
+                "addr": "Q7.3",
+                "name": "Alarme_DF_2"
+            },
+            {
+                "addr": "Q7.4",
+                "name": "Alarme_DF_3"
+            },
+            {
+                "addr": "Q7.5",
+                "name": "Alarme_DF_4"
+            },
+            {
+                "addr": "Q7.6",
+                "name": "Alarme_DF_5"
+            },
+            {
+                "addr": "Q7.7",
+                "name": "Alarme_DF_6"
+            },
+            {
+                "addr": "Q8.0",
+                "name": "Alarme_DF_7"
+            },
+            {
+                "addr": "Q8.1",
+                "name": "Alarme_DF_8"
+            },
+            {
+                "addr": "Q8.2",
+                "name": "Alarme_DF_9"
+            },
+            {
+                "addr": "Q8.3",
+                "name": "Alarme_DF_10"
+            },
+            {
+                "addr": "Q8.4",
+                "name": "Alarme_DF_11"
+            },
+            {
+                "addr": "Q8.5",
+                "name": "Alarme_DF_B1"
+            },
+            {
+                "addr": "Q8.6",
+                "name": "Alarme_DF_B2"
+            },
+            {
+                "addr": "Q8.7",
+                "name": "Alarme_DF_B3"
+            },
+            {
+                "addr": "Q9.0",
+                "name": "Alarme_DF_B4"
+            },
+            {
+                "addr": "DB1,WORD70",
+                "name": "seuilmax_ST"
+            },
+            {
+                "addr": "Q10.1",
+                "name": "Alarme_DL1"
+            },
+            {
+                "addr": "Q10.2",
+                "name": "Alarme_DL2"
+            },
+            {
+                "addr": "Q10.3",
+                "name": "Alarme_DL3"
+            },
+            {
+                "addr": "Q10.4",
+                "name": "Alarme_DL4"
+            },
+            {
+                "addr": "Q10.5",
+                "name": "Alarme_DL5"
+            },
+            {
+                "addr": "Q10.6",
+                "name": "Alarme_DL6"
+            },
+            {
+                "addr": "Q10.7",
+                "name": "Alarme_DL7"
+            },
+            {
+                "addr": "Q11.0",
+                "name": "Alarme_DL8"
+            },
+            {
+                "addr": "DB1,WORD60",
+                "name": "HI6"
+            },
+            {
+                "addr": "DB1,WORD62",
+                "name": "HI7"
+            },
+            {
+                "addr": "DB1,WORD64",
+                "name": "HI8"
+            },
+            {
+                "addr": "DB1,WORD28",
+                "name": "seuilmax_SN"
+            },
+            {
+                "addr": "Q16.0",
+                "name": "Alarme_DL9"
+            },
+            {
+                "addr": "Q13.1",
+                "name": "Alarme_AS1"
+            },
+            {
+                "addr": "Q13.2",
+                "name": "Alarme_AS2"
+            },
+            {
+                "addr": "Q13.3",
+                "name": "Alarme_AS3"
+            },
+            {
+                "addr": "Q13.4",
+                "name": "Alarme_AS4"
+            },
+            {
+                "addr": "Q13.5",
+                "name": "Alarme_AS5"
+            },
+            {
+                "addr": "Q13.6",
+                "name": "Alarme_AS6"
+            },
+            {
+                "addr": "Q13.7",
+                "name": "Alarme_AS7"
+            },
+            {
+                "addr": "Q14.0",
+                "name": "Alarme_AS8"
+            },
+            {
+                "addr": "Q14.1",
+                "name": "Alarme_AS9"
+            },
+            {
+                "addr": "Q14.2",
+                "name": "Alarme_AS10"
+            },
+            {
+                "addr": "Q12.0",
+                "name": "Alarme_SV1"
+            },
+            {
+                "addr": "Q12.1",
+                "name": "Alarme_SV2"
+            },
+            {
+                "addr": "Q12.2",
+                "name": "Alarme_SV3"
+            },
+            {
+                "addr": "Q12.3",
+                "name": "Alarme_SV4"
+            },
+            {
+                "addr": "Q12.4",
+                "name": "Alarme_SV5"
+            },
+            {
+                "addr": "Q15.0",
+                "name": "Alarme_lumineuse1"
+            },
+            {
+                "addr": "Q15.1",
+                "name": "Alarme_lumineuse2"
+            },
+            {
+                "addr": "Q15.2",
+                "name": "Alarme_lumineuse3"
+            },
+            {
+                "addr": "Q15.3",
+                "name": "Alarme_lumineuse4"
+            },
+            {
+                "addr": "Q15.4",
+                "name": "Alarme_lumineuse5"
+            },
+            {
+                "addr": "Q15.5",
+                "name": "Alarme_lumineuse6"
+            },
+            {
+                "addr": "Q16.0",
+                "name": "Alarme_DL9"
+            }
+        ]
+    },
+    {
+        "id": "d0d1ce98c8b2a0b0",
+        "type": "ui_group",
+        "name": "Arrêts d'urgence",
+        "tab": "63873c0ee9b7abb1",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": "1"
+    },
+    {
+        "id": "5b12d41f8b1f167e",
+        "type": "ui_group",
+        "name": "Brises de glace",
+        "tab": "63873c0ee9b7abb1",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7f7934f1d6b77f82",
+        "type": "ui_group",
+        "name": "Graphes",
+        "tab": "63873c0ee9b7abb1",
+        "order": 9,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9e4f7ad1235325e3",
+        "type": "ui_group",
+        "name": "Jauges de température",
+        "tab": "63873c0ee9b7abb1",
+        "order": 8,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": "Jauges"
+    },
+    {
+        "id": "3e2ff7a8aee5e324",
+        "type": "ui_group",
+        "name": "Détecteur de fumée",
+        "tab": "63873c0ee9b7abb1",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ef812e13773754d3",
+        "type": "ui_group",
+        "name": "Contrôle distanciel",
+        "tab": "63873c0ee9b7abb1",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bd0c6ecfb3717c8a",
+        "type": "ui_group",
+        "name": "Détecteur liquide",
+        "tab": "63873c0ee9b7abb1",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3dcab260c9710553",
+        "type": "ui_group",
+        "name": "Alarmes Sonores",
+        "tab": "63873c0ee9b7abb1",
+        "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "32d0fedfe8a6ca10",
+        "type": "ui_group",
+        "name": "Alarmes lumineuses",
+        "tab": "63873c0ee9b7abb1",
+        "order": 7,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": "Alarmes lumineuses"
+    },
+    {
+        "id": "aacc667bba8d87ab",
+        "type": "twilio-api",
+        "name": "",
+        "sid": "AC37439ff2f1e7ebf79ee137e477bb0c91",
+        "from": "+12282228468"
+    },
+    {
+        "id": "63873c0ee9b7abb1",
+        "type": "ui_tab",
+        "name": "Supervision",
+        "icon": "dashboard",
+        "order": 6,
+        "disabled": false,
+        "hidden": false
+    }
+]
