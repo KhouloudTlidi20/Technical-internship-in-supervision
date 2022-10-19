@@ -9,8 +9,10 @@ I managed to do that with the help of node red cores. To send sms I worked with 
 ### 📌 Keywords:
 	API:
 API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you’re using an API. To illustrate this here is an analogy: The waiter is the messenger – or API – that takes your request or order and tells the kitchen – the system – what to do. Then the waiter delivers the response back to you; in this case, it is the food.
+  
   Twilio:
 Twilio is an American company specializing in unified communications via a cloud platform. Twilio allows software developers to make and receive phone calls, send and receive text messages, and perform other communication functions using its web service APIs.
+  
   SCADA:
 Refers to a category of software intended for the control of processes and the collection of data in real time from remote sites, in order to control equipment and operating conditions.
 
