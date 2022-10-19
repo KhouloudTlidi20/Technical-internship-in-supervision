@@ -30,7 +30,10 @@ Twilio is an American company specializing in unified communications via a cloud
 1. Create the program in Tia portal
 2. Make a connection between Tia portal & Node-Red
 3. Create your flow in Node-Red\
+
 You will find all files☝🏻
+<img src="https://github.com/KhouloudTlidi20/Technical-internship-in-supervision/blob/main/Node_Red.png" width="700" height="400">
+
 ## 🖇️ Resources:
 - [Node-Red](https://nodered.org/)
 - [Siemens PLC](https://www.mabeo-direct.com/document/A-484834-mabeo-experts-simatic-s7-1500-un-automate-optimise-et-performant)
