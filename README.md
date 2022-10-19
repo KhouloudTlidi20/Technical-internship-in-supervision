@@ -32,6 +32,7 @@ Twilio is an American company specializing in unified communications via a cloud
 3. Create your flow in Node-Red\
 
 You will find all files☝🏻
+Here is a link to a drive for the tia portal project part. [Tia](https://drive.google.com/drive/folders/1RT6JWoCcoKvtaNL58PhBMF2hJdzOA9-G?usp=sharing)
 <img src="https://github.com/KhouloudTlidi20/Technical-internship-in-supervision/blob/main/Node_Red.png" width="700" height="400">
 
 ## 🖇️ Resources:
